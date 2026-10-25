@@ -1,11 +1,16 @@
-# RISE® Turning Simulator
+# RISE Turning Simulator
 
-This repository hosts a standalone interactive HTML turning-clearance simulator.
+This package contains the original uploaded RISE Turning Simulator, renamed to index.html for static website hosting.
 
-## Publish on GitHub Pages
-1. Create a **public** repository named `RISE-Turning-Simulator` on GitHub.
-2. Choose **Add file → Upload files**, and upload `index.html` (not the ZIP). Commit the change.
-3. Open **Settings → Pages**. Under **Build and deployment**, select **Deploy from a branch**, then **main** and **/(root)**, and Save.
-4. After deployment, open `https://YOUR-USERNAME.github.io/RISE-Turning-Simulator/` in Safari.
+## GitHub Pages deployment
 
-Note: This checks individual geometric positions only, not an automatically verified collision-free path or actual caster maneuverability.
+1. Extract this ZIP on your laptop.
+2. Upload index.html and README.md to the root of your GitHub Pages publishing source.
+3. Enable GitHub Pages for that publishing source in your repository settings.
+4. Open the published website URL once deployment finishes. On iPhone, open the website URL in Safari.
+
+Keep index.html at the publishing root, not inside an extra folder.
+
+The simulator includes its styles and scripts in index.html and requires no build step. You can also open index.html locally in a web browser.
+
+Source: RISE_Turning_Simulation(1).html from the referenced conversation. The simulator HTML was preserved without modification.
